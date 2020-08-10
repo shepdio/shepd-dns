@@ -11,7 +11,7 @@ Currently `shepd-dns` is distributed in DEB package format, compatible with Ubun
 
 2. Install on your system with `dpkg -i shepd-dns_<version>.deb`
 
-3. Create a config file with your device token at `/etc/shepd/shepd.conf` (the [SHEPD CLI](https://github.com/shepd-cli) can create this for you automagically)
+3. Create a config file with your device token at `/etc/shepd/shepd.conf` (the [SHEPD CLI](https://github.com/shepdio/shepd-cli) can create this for you automagically)
 
 4. Start the server with `shepd-dns-resolver-client` to listen on port 53. Use `-dns.port=<port>` to specify a different port if, for example, you're not using root or are in a container.
 
